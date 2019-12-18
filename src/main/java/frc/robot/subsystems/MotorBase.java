@@ -32,4 +32,8 @@ public class MotorBase extends Subsystem {
   public void run() {
     motor1.set(0.8);
   }
+
+  public void stop() {
+    motor1.set(0.0);
+  }
 }
